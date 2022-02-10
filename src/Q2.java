@@ -12,7 +12,7 @@ public class Q2 {
                 list.add(data);
                 data = sc.nextInt();
             }
-            System.out.println(list.getSize());
+            list.size_display();
         }
         sc.close();
     }
